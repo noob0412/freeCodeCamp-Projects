@@ -1,0 +1,41 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0 0;
+    background-image: url(https://wallpaperaccess.com/full/493297.jpg);
+    background-size: cover;
+    color:whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+main{
+    margin: 0 auto;
+    text-align: center;
+}
+#title{
+    margin-bottom: 10px;
+}
+#description{margin-bottom: 25px; margin-top: 10px;}
+form{
+    background-color: rgba(58, 122, 175,0.65);
+    margin: 0 auto;
+    width: 700px;
+    font-size: 18px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    
+}
+.sec{margin: 5px 45px; }
+select{font-size: 16px; color:grey;}
+input,textarea{font-size: 16px;}
+input,select,textarea{padding: 10px 5px; margin-top: 12px; margin-bottom: 12px;}
+label,input,select,textarea{display: block; border-radius: 5px; border: none;} 
+label,select,textarea{min-width: 580px;}    
+textarea{max-width:580px; min-height: 130px;}
+input:not(.exp){width: 580px;}
+label[name="lang"]{display: inline-block;}
+input[type="radio"]{display: inline;}
+label[name="opt"]{display: block;}
+input[type="checkbox"]{display: inline-block;}
+input[name="box"]{color: azure;}
+.space{margin-top: 12px;}
+#submit{margin-top: 25px; font-size: 16px; color: rgb(77, 75, 75); background-color: #b3fbfd;}
